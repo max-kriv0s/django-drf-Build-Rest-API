@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "pollsapi"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./pollsapi",
+        "-p",
+        "test*.py"
+    ]
+}
