@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
 
     'polls',
+    'rest_framework_swagger',
     
 ]
 
@@ -136,4 +137,5 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
     ),
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
 }
